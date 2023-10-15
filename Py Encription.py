@@ -13,7 +13,6 @@ def encrypt(message, key):
                 num-=end
                 encrypted +=  '?'
             encrypted +=  LETTERS[num]
-
     return encrypted
 
 def decrypt(message, key):
@@ -30,7 +29,6 @@ def decrypt(message, key):
                 num=end-num
                 cc=0
             decrypted +=  LETTERS[num]
-
     return decrypted
 
 def encrypt_new(message):
@@ -38,7 +36,6 @@ def encrypt_new(message):
     for chars in message:
         txt=ord(chars)
         encrypted.append(txt)
-
     return encrypted
 
 def decrypt_new(message):
@@ -47,11 +44,10 @@ def decrypt_new(message):
     for chars in message:
         txt=chr(chars)
         decrypted += txt
-
     return decrypted
 
 if __name__ == '__main__':
-    a = input("Enter Type:\n1] Old\n2] New\nYour Choice: ")
+    a = input("Enter Type:\n1] Text Output\n2] List Output\nYour Choice: ")
 
     if a == '1':
         message = str(input('Enter your message: '))
