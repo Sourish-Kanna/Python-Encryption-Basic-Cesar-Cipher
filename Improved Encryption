@@ -1,4 +1,4 @@
-Cap = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+Cap = 'QWERTYUIOPASDFGHJKLZXCVBNM'
 Num = '0123456789'
 Sym = '_-=+/*!@#$%^&:;"\'\\<>,.?`()}{[] '
 LETTERS = Cap+Num+Cap.lower()+Sym
